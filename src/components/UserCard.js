@@ -3,7 +3,6 @@ import 'holderjs';
 import { useEffect } from 'react';
 import { run as runHolder } from 'holderjs';
 import UserButton from './UserButton';
-import Row from 'react-bootstrap/Row';
 
 
 function UserCard(props) {
@@ -29,7 +28,6 @@ function UserCard(props) {
                 <Card.Subtitle className="mb-2 text-muted">{props.username}</Card.Subtitle>
                 <Card.Link href={props.website}>{props.website}</Card.Link>
             </Card.Body>
-            <UserButton/>
         </Card>
     )
 }
