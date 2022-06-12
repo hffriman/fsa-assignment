@@ -5,11 +5,13 @@ import { Link } from "react-router-dom";
 function UserButton(props) {
 
     return(
-        <Link to={`/user/${props.id}`}>
-            <Button 
-                variant="danger"
-            >More Details</Button>
-        </Link>
+        <div className="p-2">
+            <Link to={`/user/${props.id}`}>
+                <Button 
+                    variant="danger"
+                >More Details</Button>
+            </Link>
+        </div>
     )
 }
 

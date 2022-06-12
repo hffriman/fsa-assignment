@@ -1,11 +1,8 @@
-import { useDeferredValue, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import UserCard from "../components/UserCard";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import UserButton from "../components/UserButton";
-import { Link } from "react-router-dom";
-import Button from "react-bootstrap/esm/Button";
 
 function Homepage() {
 
@@ -26,25 +23,23 @@ function Homepage() {
         return(
                 <Col key={index}>
                     <UserCard
+                        id={user.id}
                         key={user.id}
                         name={user.name}
                         username={user.username}
                         website={user.website}>
                     </UserCard>
-                    <UserButton id={user.id}/>
                 </Col>
         );
     });
 
 
     return(
-        <main>
-            <Container>
-                <Row xs={1} md={3}>
-                    {users}
-                </Row>
-            </Container>
-        </main>
+        <Container className='p-5'>
+            <Row xs={1} md={2} lg={3}>
+                {users}
+            </Row>
+        </Container>
     );
 }
 

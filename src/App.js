@@ -1,6 +1,6 @@
 import './App.css';
 import Homepage from './pages/Homepage';
-import UserInfo from './pages/UserInfo';
+import ShowUser from './pages/ShowOneUser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { 
   BrowserRouter as Router,
@@ -10,12 +10,14 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Routes>
-          <Route path="/user/:id" element={<UserInfo/>}/>
-          <Route path="/" element={<Homepage/>}/>
-      </Routes>
-    </Router>
+    <div className="App">
+      <Router>
+        <Routes>
+            <Route path="/user/:id" element={<ShowUser/>}/>
+            <Route path="/" element={<Homepage/>}/>
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
