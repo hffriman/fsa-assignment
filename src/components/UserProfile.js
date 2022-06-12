@@ -10,11 +10,12 @@ function UserProfile(props) {
             border={'danger'}
             bg={'light'}
             text={'dark'}
-            style={{ width: '20rem' }}>
+            style={{ width: '20rem' }}
+        >
             <ExitButton/>            
             <Card.Body>
                 <b>- name: {props.name}</b><br/>
-                <b>- username; {props.username}</b><br/>
+                <b>- username: {props.username}</b><br/>
                 <b>- email: {props.email}</b><br/>
                 <b>- phone: {props.phone}</b><br/>
                 <b>- company: {props.name}</b><br/>

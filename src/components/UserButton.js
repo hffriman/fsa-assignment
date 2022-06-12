@@ -9,7 +9,7 @@ function UserButton(props) {
             <Link to={`/user/${props.id}`}>
                 <Button 
                     variant="danger"
-                >More Details</Button>
+                > More Details </Button>
             </Link>
         </div>
     )

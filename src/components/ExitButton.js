@@ -6,7 +6,8 @@ function ExitButton() {
     return(
         <Link to={"/"}>
             <CloseButton
-                aria-label="hide">
+                aria-label="hide"
+            >
             </CloseButton>
         </Link>
     )

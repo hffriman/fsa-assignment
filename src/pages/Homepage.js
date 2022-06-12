@@ -27,8 +27,8 @@ function Homepage() {
                         key={user.id}
                         name={user.name}
                         username={user.username}
-                        website={user.website}>
-                    </UserCard>
+                        website={user.website}
+                    />
                 </Col>
         );
     });

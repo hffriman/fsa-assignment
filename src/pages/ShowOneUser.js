@@ -45,7 +45,8 @@ function ShowOneUser() {
                             street={address.street}
                             suite={address.suite}
                             city={address.city}
-                            zipcode={address.zipcode}>
+                            zipcode={address.zipcode}
+                        >
                         </UserProfile>
                     </Col>
                 </Row>
