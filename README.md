@@ -13,8 +13,8 @@ This project was made with React.js and visualized by React-Bootstrap.
 
 
 ## Starting and Finishing Time
-- Starting time: May 10th at 1 pm
-- Finishing time: May 12th at 10 pm
+- Starting time: June 10th at 1 pm
+- Finishing time: June 12th at 10 pm
 - I managed to complete this task in 57 hours, which is under the given deadline (72 hours).
 
 
