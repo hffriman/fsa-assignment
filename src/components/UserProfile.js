@@ -19,11 +19,11 @@ function UserProfile(props) {
                 <b>- email: {props.email}</b><br/>
                 <b>- phone: {props.phone}</b><br/>
                 <b>- company: {props.name}</b><br/>
-                <b>- website; {props.website}</b><br/>
+                <b>- website: {props.website}</b><br/>
                 <b>- address:</b>
                 <ul>
                     <li><b>street: {props.street}</b></li>
-                    <li><b>suite; {props.suite}</b></li>
+                    <li><b>suite: {props.suite}</b></li>
                     <li><b>city: {props.city}</b></li>
                     <li><b>zipcode: {props.zipcode}</b></li>
                 </ul>
