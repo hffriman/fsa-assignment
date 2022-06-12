@@ -12,15 +12,17 @@ The objective of the task was to:
 This project was made with React.js and visualized by React-Bootstrap.
 
 
+## Starting and Finishing Time
+- Starting time: May 10th at 1 pm
+- Finishing time: May 12th at 10 pm
+- I managed to complete this task in 57 hours, which is under the given deadline (72 hours).
+
+
 ## Screenshots
 
 ![Screenshot 1](/src/screenshots/screenshot-1.png)
 ![Screenshot 2](/src/screenshots/screenshot-2.png)
 
-## Starting and Finishing Time
-- Starting time: May 10th at 1 pm
-- Finishing time: May 12th at 10 pm
-- I managed to complete this task in 57 hours, which is under the given deadline (72 hours).
 
 
 ## Explaining My Solution
