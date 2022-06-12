@@ -1,6 +1,6 @@
 # My Solution for Full-Stack Academy's Programming Assignment
 
-TRY THE WEBSITE
+<b>LINK TO MY SOLUTION:</b> https://heroic-semolina-10fdb4.netlify.app/
 
 ## Introduction
 This test is a part of technical assessment, which is required to complete in order to be selected in Integrify's Full-Stack Academy.
